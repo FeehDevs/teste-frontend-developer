@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<?php
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+require_once '../backend/config/database.php';
 
-<body>
-
-</body>
-
-</html>
+echo "Conexão OK!";
