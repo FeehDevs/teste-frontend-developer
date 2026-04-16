@@ -17,9 +17,10 @@
     <!-- HEADER -->
     <header class="header">
         <div class="header-container">
-            <a href="#" class="header-logo-link">
-                <img src="/frontend/assets/logos/logo-text.svg" class="logo-desktop" alt="Logo">
-                <img src="/frontend/assets/logos/logo-icon.svg" class="logo-mobile" alt="Logo">
+            <a href="/" class="header-logo-link">
+                <img src="/frontend/assets/logos/logo-text.svg" alt="Contabiliza+" class="logo logo-desktop">
+
+                <img src="/frontend/assets/logos/logo-icon.svg" alt="Contabiliza+" class="logo logo-mobile">
             </a>
 
             <nav class="header-nav">
@@ -41,17 +42,27 @@
     <main>
 
         <!-- HERO -->
-        <section class="hero" data-animate="fade-up">
+        <section class="hero">
             <div class="hero-container">
-                <div class="hero-text" data-animate="fade-up">
-                    <h1>Soluções contábeis para seu negócio</h1>
-                    <p>Organize suas finanças, reduza burocracias e cresça com mais segurança.</p>
+                <div class="hero-text">
+                    <span class="hero-badge">Contabilidade digital para empresas modernas</span>
 
-                    <a href="#contact" class="btn cta-link">Começar agora</a>
+                    <h1>
+                        Simplifique sua contabilidade e foque no crescimento
+                    </h1>
+
+                    <p>
+                        Cuidamos da parte burocrática para você ter mais tempo para seu negócio,
+                        com organização, clareza e suporte especializado.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn cta-link">Começar agora</a>
+                    </div>
                 </div>
 
-                <div class="hero-image" data-animate="fade-up">
-                    <!-- imagem aqui -->
+                <div class="hero-image">
+                    <img src="/frontend/assets/images/mockup.png" alt="Mockup do aplicativo Contabiliza+">
                 </div>
             </div>
         </section>
