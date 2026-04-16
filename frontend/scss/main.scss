@@ -2,3 +2,7 @@
 @use 'base/mixins';
 @use 'base/reset';
 @use 'base/globals';
+
+@use 'components/button';
+
+@use 'layout/header';

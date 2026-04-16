@@ -17,7 +17,10 @@
     <!-- HEADER -->
     <header class="header">
         <div class="header-container">
-            <img src="" alt="Logo da marca">
+            <a href="#" class="header-logo-link">
+                <img src="/frontend/assets/logos/logo-text.svg" class="logo-desktop" alt="Logo">
+                <img src="/frontend/assets/logos/logo-icon.svg" class="logo-mobile" alt="Logo">
+            </a>
 
             <nav class="header-nav">
                 <a href="#about" class="nav-link">Quem Somos</a>
@@ -25,7 +28,13 @@
                 <a href="#faq" class="nav-link">Dúvidas</a>
             </nav>
 
-            <a href="#contact" class="btn cta-link">Cadastro</a>
+            <a href="#contact" class="btn header-cta">Cadastro</a>
+
+            <button class="hamburger" type="button" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </header>
 
