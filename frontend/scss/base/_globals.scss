@@ -1,0 +1,54 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+body {
+  min-height: 100vh;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $color-text;
+  background-color: $color-bg-dark;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, span, a, button {
+  font-family: $font-family-base;
+}
+
+main {
+  overflow: hidden;
+}
+
+.container {
+  @include container;
+}
+
+.section-title {
+  font-size: $font-size-2xl;
+  line-height: $line-height-tight;
+  font-weight: 700;
+  margin-bottom: $space-4;
+
+  @media (max-width: $bp-md) {
+    font-size: 1.75rem;
+  }
+}
+
+.section-description {
+  @include text-body;
+  max-width: 640px;
+}
+
+.desktop-only {
+  @media (max-width: $bp-md) {
+    display: none !important;
+  }
+}
+
+.mobile-only {
+  display: none !important;
+
+  @media (max-width: $bp-md) {
+    display: block !important;
+  }
+}

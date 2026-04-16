@@ -1,0 +1,62 @@
+@use 'variables' as *;
+
+@mixin container {
+  width: 100%;
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding-left: $container-padding-desktop;
+  padding-right: $container-padding-desktop;
+
+  @media (max-width: $bp-md) {
+    padding-left: $container-padding-mobile;
+    padding-right: $container-padding-mobile;
+  }
+}
+
+@mixin section-spacing {
+  padding-top: $space-20;
+  padding-bottom: $space-20;
+
+  @media (max-width: $bp-md) {
+    padding-top: $space-16;
+    padding-bottom: $space-16;
+  }
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin heading-xl {
+  font-size: $font-size-4xl;
+  line-height: $line-height-tight;
+  font-weight: 700;
+
+  @media (max-width: $bp-md) {
+    font-size: $font-size-2xl;
+  }
+}
+
+@mixin text-body {
+  font-size: $font-size-base;
+  line-height: $line-height-relaxed;
+  color: $color-text-muted;
+}
+
+@mixin card-surface {
+  background: $color-surface-soft;
+  border: 1px solid $color-border;
+  border-radius: $radius-lg;
+  box-shadow: $shadow-soft;
+  backdrop-filter: blur(14px);
+}
+
+@mixin hover-lift {
+  transition: transform $transition-default, box-shadow $transition-default;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+}
