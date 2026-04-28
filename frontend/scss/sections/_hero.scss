@@ -2,6 +2,8 @@
 @use '../base/mixins' as *;
 
 .hero {
+  scroll-snap-align: start;
+  min-height: 100vh;
   position: relative;
   overflow: hidden;
   padding-top: $space-16;

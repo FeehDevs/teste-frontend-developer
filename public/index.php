@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../frontend/css/main.css">
+    <link rel="stylesheet" href="/frontend/css/main.css">
 </head>
 
 <body>
@@ -68,11 +68,78 @@
         </section>
 
         <!-- ABOUT -->
-        <section class="about" id="about" data-animate="fade-up">
+        <section class="about" id="about">
             <div class="about-container">
-                <div class="about-card">Serviço 1</div>
-                <div class="about-card">Serviço 2</div>
-                <div class="about-card">Serviço 3</div>
+                <div class="about-heading">
+                    <span class="about-badge">Quem Somos</span>
+                    <h2 class="section-title">Uma contabilidade mais próxima, clara e estratégica</h2>
+                    <p class="section-description">
+                        Ajudamos empresas a organizarem sua rotina financeira com mais agilidade,
+                        suporte e visão de crescimento.
+                    </p>
+                </div>
+
+                <div class="about-carousel">
+                    <div class="about-track">
+
+                        <article class="about-card">
+                            <div class="about-card__icon">
+                                <img src="/frontend/assets/icons/icon-coin.svg" alt="Ícone de atendimento próximo">
+                            </div>
+
+                            <div class="about-card__content">
+                                <h3>Atendimento próximo</h3>
+                                <p>Suporte humanizado para acompanhar as necessidades do seu negócio.</p>
+                            </div>
+                        </article>
+
+                        <article class="about-card">
+                            <div class="about-card__icon">
+                                <img src="/frontend/assets/icons/icon-coin.svg" alt="Ícone de organização financeira">
+                            </div>
+
+                            <div class="about-card__content">
+                                <h3>Organização financeira</h3>
+                                <p>Mais clareza sobre obrigações, prazos e rotinas contábeis.</p>
+                            </div>
+                        </article>
+
+                        <article class="about-card">
+                            <div class="about-card__icon">
+                                <img src="/frontend/assets/icons/icon-coin.svg" alt="Ícone de visão estratégica">
+                            </div>
+
+                            <div class="about-card__content">
+                                <h3>Visão estratégica</h3>
+                                <p>Dados organizados para ajudar sua empresa a crescer com segurança.</p>
+                            </div>
+                        </article>
+
+                        <article class="about-card">
+                            <div class="about-card__icon">
+                                <img src="/frontend/assets/icons/icon-coin.svg" alt="Ícone de processos modernos">
+                            </div>
+
+                            <div class="about-card__content">
+                                <h3>Processos modernos</h3>
+                                <p>Digitalização e praticidade para reduzir burocracia no dia a dia.</p>
+                            </div>
+                        </article>
+
+                        <article class="about-card">
+                            <div class="about-card__icon">
+                                <img src="/frontend/assets/icons/icon-coin.svg"
+                                    alt="Ícone de confiança e transparência">
+                            </div>
+
+                            <div class="about-card__content">
+                                <h3>Confiança e transparência</h3>
+                                <p>Comunicação clara para você entender cada etapa do processo.</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -137,6 +204,7 @@
         </div>
     </footer>
 
+    <script defer src="/frontend/js/main.js"></script>
 </body>
 
 </html>

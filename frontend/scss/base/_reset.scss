@@ -13,6 +13,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
 body,
 h1,
 h2,
