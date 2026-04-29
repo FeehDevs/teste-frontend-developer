@@ -728,8 +728,9 @@ main {
   margin: 0 auto;
 }
 .about .about-heading {
-  max-width: 720px;
-  margin-bottom: 3.5rem;
+  max-width: 850px;
+  margin: 0 auto 3.5rem;
+  text-align: center;
 }
 .about .about-badge {
   display: inline-flex;
@@ -745,15 +746,15 @@ main {
   font-weight: 500;
 }
 .about .section-title {
-  margin: 0 0 1.25rem;
-  font-size: clamp(2rem, 4vw, 3.5rem);
-  line-height: 1.1;
+  margin: 0 auto 1.25rem;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  line-height: 1.2;
   color: #f8fafc;
-  max-width: 13ch;
+  max-width: 25ch;
 }
 .about .section-description {
-  margin: 0;
-  max-width: 34ch;
+  margin: 0 auto;
+  max-width: 55ch;
   font-size: 1.15rem;
   line-height: 1.7;
   color: rgba(226, 232, 240, 0.72);
@@ -872,9 +873,6 @@ main {
   }
   .about .about-heading {
     margin-bottom: 3rem;
-  }
-  .about .section-title {
-    max-width: 14ch;
   }
   .about .section-description {
     font-size: 1.05rem;
