@@ -195,7 +195,8 @@ main {
 
 .about-carousel {
   margin-top: 1rem;
-  overflow: hidden;
+  padding: 20px 0;
+  overflow: visible;
 }
 
 .about-track {
@@ -760,7 +761,8 @@ main {
 
 .about-carousel {
   margin-top: 1rem;
-  overflow: hidden;
+  padding: 20px 0;
+  overflow: visible;
 }
 
 .about-track {
@@ -920,7 +922,9 @@ main {
   }
   .about-carousel {
     overflow-x: auto;
-    padding-bottom: 0.5rem;
+    overflow-y: visible;
+    padding-top: 12px;
+    padding-bottom: 1rem;
   }
   .about-carousel::-webkit-scrollbar {
     height: 6px;
