@@ -12,8 +12,10 @@ try {
         $user,
         $password
     );
-
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+    echo "Sucesso na conexão!";
+    
 } catch (PDOException $e) {
     die('Erro na conexão com o banco: ' . $e->getMessage());
 }
